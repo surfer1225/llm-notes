@@ -313,6 +313,7 @@ messages =  [
 
 response = get_completion_from_messages(messages, temperature=1)
 print(response)
+```
 
 ### Order bot
 ```
