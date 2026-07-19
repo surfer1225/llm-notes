@@ -64,6 +64,8 @@ API
 ```
 DTO object need to include user_id from session data as well, and the data lives within the lifecycle of a request
 
+![fr1](./LLL_chat.png)
+
 ### FR2 - Adjust generation parameters
 ### FR3 - Save prompt as a preset
 ### FR4 - search, load, edit existing presets
