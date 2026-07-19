@@ -44,6 +44,7 @@ Make sure spam or traffic spike would not overwhelm the system
 
 ## Deep Dive
 ### FR1 - Submit prompt & view completion
+```
 API
 {
   event: "generate"
@@ -60,6 +61,8 @@ API
   request_id: "uuid-111111"
   response: "Messi"
 }
+```
+DTO object need to include user_id from session data as well, and the data lives within the lifecycle of a request
 
 ### FR2 - Adjust generation parameters
 ### FR3 - Save prompt as a preset
